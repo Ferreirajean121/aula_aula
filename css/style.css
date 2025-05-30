@@ -35,13 +35,15 @@ img{
 
 header{
 
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
     background-color: rgb(49, 136, 107);
     padding: 10px 0;
     text-align: center;
+    width: 100%;
+    z-index: 4;
 
 }
 
@@ -49,7 +51,7 @@ header ul{
 
     position: absolute;
     top: 5;
-    right: 21%;
+    right: 21px;
     list-style: none;
     display: flex;
     gap: 10px;
@@ -65,4 +67,19 @@ header nav a{
 
 header nav a:hover{
     background-color: rgb(110, 185, 147);
+}
+
+main{
+    height: 110vh;
+    display: flex;
+}
+
+.modal{
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    width: 60%;
+    background-color: rgba(58, 64, 71, 0.486);
+    color: white;
+    z-index: 5;
 }
