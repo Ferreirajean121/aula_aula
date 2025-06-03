@@ -12,7 +12,7 @@ body{
 
 .primeira-header{
     
-    gap: 10px;
+    gap: 5px;
     display: flex;
     background-color: rgb(121, 94, 36);
     padding: 5px;
@@ -33,28 +33,22 @@ a{
     background-color: rgb(202, 177, 122);;
     padding: 15px;
     justify-content: space-between;
+    right: 80px;
 
 }
 
 .logo{
+
     width: 30px;
     height: auto;
-    margin: 20px auto;
+    margin: 0 25px;
     display: block;
+    right: 50%;
 }
 
 .redes-sociais{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin: 10px;
 }
 
-/*se a largura for até 768 faça*/
-@media (max-width: 768px){
-    .primeira-header{
-        /*medidas relativas:display:
-        vh - viewport altura
-        vw - viewport largura*/
-        top: 90vh;
-    }
-}
