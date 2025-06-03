@@ -48,3 +48,13 @@ a{
     height: 20px;
     margin: 10px;
 }
+
+/*se a largura for até 768 faça*/
+@media (max-width: 768px){
+    .primeira-header{
+        /*medidas relativas:display:
+        vh - viewport altura
+        vw - viewport largura*/
+        top: 90vh;
+    }
+}
