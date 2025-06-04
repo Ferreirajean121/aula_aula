@@ -68,3 +68,19 @@ main{
     display: none;
 
 }
+
+.botao-flutuante{
+
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: rgb(72, 105, 40);;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px;
+}
