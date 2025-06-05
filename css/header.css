@@ -39,7 +39,11 @@ a:hover{
 
 .logo{
 
-    width: 80px;
+    width: 50px;
+    height: auto;
+    margin: 0 25px;
+    display: block;
+    right: 50%;
     animation: fadeIn 1s ease-in forwards;
     
 }
@@ -66,7 +70,7 @@ a:hover{
 
 .linha-menu-top, .linha-menu-bottom{
 
-    
+    display: block;
     background-color: black;
     height: 5px;
     width: 50px;
@@ -76,7 +80,7 @@ a:hover{
 
 .linha-menu-center{
 
-    
+    display: block;
     background-color: black;
     height: 5px;
     width: 50px;
