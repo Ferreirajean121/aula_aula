@@ -26,14 +26,13 @@ nav a{
     margin-right: 12px;
     margin-top: 10px;
     font-size: 20px;
-   
-
+    
 }
 
 a:hover{
-
+    border-bottom: solid 2px black;
     color: black;
-    cursor: url("cursor/pointer-cursor-svgrepo-com.svg"), auto;
+    cursor:url("cursor/pointer-cursor-svgrepo-com.svg"), auto;
 
 }
 
