@@ -1,0 +1,95 @@
+.primeira-header{
+    
+    gap: 5px;
+    display: flex;
+    background-color: rgb(121, 94, 36);
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+.segunda-header{
+
+    gap: 20px;
+    display: flex;
+    background-color: rgb(202, 177, 122);;
+    padding: 15px;
+    justify-content: space-between;
+    right: 80px;
+
+}
+
+nav a{
+    
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+   
+
+}
+
+a:hover{
+
+    color: black;
+    cursor: url("cursor/pointer-cursor-svgrepo-com.svg"), auto;
+
+}
+
+.logo{
+
+    width: 80px;
+    animation: fadeIn 1s ease-in forwards;
+    
+}
+
+.logo:hover{
+
+    animation: pulse 1s infinite;
+
+}
+
+.redes-sociais{
+
+    width: 2rem;
+    margin-right: 10px;
+
+}
+
+.menu-icon{
+
+    display: none;
+    cursor: pointer;
+
+}
+
+.linha-menu-top, .linha-menu-bottom{
+
+    
+    background-color: black;
+    height: 5px;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+.linha-menu-center{
+
+    
+    background-color: black;
+    height: 5px;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+.menu-toggle{
+
+    display: none;
+
+}
+
+button{
+    cursor: url("cursor/pointer-cursor-svgrepo-com.svg"), auto;
+}
